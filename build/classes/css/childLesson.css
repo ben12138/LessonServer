@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.childflright{
+	height:328px;
+	width:0;
+	background-color:#FFFFFF;
+	left:143px;
+	position: absolute;
+	top:54px;
+}
+.childflright a{
+	font-size:14px;
+}
+.flright dt{
+	overflow:hidden;
+}
+.flright dt a{
+	color:red;
+	height:40px;
+}
+.flright dd{
+	color:black;
+	overflow:hidden;
+}
+.flright dd a{
+	float:left;
+	height:33px;
+	line-height:33px;
+	padding-right:10px;
+}

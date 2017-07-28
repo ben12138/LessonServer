@@ -1,0 +1,371 @@
+@CHARSET "UTF-8";
+.lessonList_firstDiv{
+	width: 1160px;
+	height:300px;
+	background-color:white;
+}
+.lessonList_bgImg{
+	float:left;
+	width:500px;
+	height:300px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.lessonList_rightDiv{
+	float:left;
+	width:580px;
+	height:250px;
+	margin-left:10px;
+	margin-top:25px; 
+	background-color:white;
+}
+.lessonList_title{
+	font-size: 24px;
+	font-weight: normal;
+	color:#666;
+}
+.lessonList_teacher{
+	width:240px;
+	height:18px;
+	margin-top:15px; 
+	font-size: 12px;
+	color: #666;
+}
+.lessonList_join{
+	position:absolute; 
+	top: 210px;
+}
+.lessonList_nouse{
+	font-size: 12px;
+	padding-bottom: 5px;
+	height: 15px
+}
+.lessonList_joinBtn{
+	background-color: #ff8000;
+	color: white;
+	font-size: 20px;
+	width: 160px;
+	height: 45px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+}
+.lessonList_joinBtn:hover{
+	background-color: #EE6600;
+}
+.lessonList_delect{
+	position:absolute; 
+	top: 210px;
+}
+.lessonList_delectBtn{
+	background-color: #49AF4F;
+	color: white;
+	font-size: 20px;
+	width: 160px;
+	height: 45px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+}
+.lessonList_delectBtn:hover{
+	background-color: #8FE045;
+}
+.lessonList_secondDiv{
+	margin-top: 15px;
+	float: left;
+	width: 880px;
+}
+.lessonList_introAll{
+	float: left;
+	width:840px;
+	padding: 20px 20px 20px 20px;
+	color: #444;
+	text-align: left;
+	background-color: white;
+}
+.lessonList_intro{
+	height: 20px;
+	padding: 15px 0 15px 0;
+	font-size: 18px;
+	line-height: 19px;
+	max-width: 660px;
+}
+.lessonList_introFont{
+	line-height: 23px;
+	font-family: '微软雅黑';
+}
+.lessonList_catalogAll{
+	float: left;
+	margin-top: 15px;
+	background-color: white;
+	width: 880px;
+}
+.lessonList_catalogTop{
+	border-bottom-color: #DDDDDD;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.lessonList_catalogTitle{
+	height: 20px;
+	padding: 15px 0 15px 15px;
+	font-size: 18px;
+	line-height: 19px;
+	max-width: 660px;
+}
+.lessonList_catalogChildAll{
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px 0 15px;
+	cursor: pointer;
+}
+.lessonList_catalogChildAll:hover{
+	background-color: #E2FADD;
+}
+.lessonList_catalogNum{
+	width: 62px;
+	color: #999;
+	text-align: left;
+	font-size: 14px;
+	display: inline-block;
+}
+.lessonList_catalogChildTitle{
+	width: 450px;
+	padding-left: 6px;
+	color: #333;
+	height: 36px;
+	display: inline-block;
+}
+.lessonList_catalogTimeAll{
+	display:block;
+	float:right;
+}
+.lessonList_catalogTime{
+	float:right;
+	width:40px;
+	height:36px;
+	text-align: right;
+	font-size: 12px;
+	color: #b7b8ba;
+}
+.lessonList_catalogTimeImg{
+	float:right; 
+	width: 13px;
+	height: 15px;
+	margin: 12px 0 0 8px;
+}
+.lessonList_catalogPlayAll{
+	display: none;
+	float:right;
+	color: #10ae58;
+	font-family: '微软雅黑';
+}
+.lessonList_catalogPlay{
+	float:right;
+}
+.lessonList_catalogPlayImg{
+	float: right;
+	width: 14px;
+	height: 10px;
+	margin: 13px 7px 0 0;
+}
+.lessonList_thridDiv{
+	float: left;
+	width:265px;
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.lessonList_teacherInfAll{
+	font-size: 12px;
+	text-align: center;
+	background-color: white;
+	padding:10px 10px 10px 10px;
+	border-bottom-color: #DDDDDD;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.lessonList_teacherName{
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.lessonList_teacherAbout{
+	background-color: white;
+	text-align: left;
+	padding:15px 20px 15px 20px;
+	width: 225px;
+	line-height: 20px;
+}
+.lessonList_fourthDiv{
+	float: right;
+	width:265px;
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.lessonList_evaluate{
+	height:20px;
+	padding: 15px 0 15px 15px;
+	font-size: 18px;
+	line-height: 19px;
+	max-width: 660px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.lessonList_evaluatePerson{
+	height: 36px;
+	padding: 12px 0 12px 0;
+	position: relative;
+	margin: 0 20px 0 20px;
+}
+.lessonList_evaluatePersonImg{
+	float: left;
+	margin: 4px 0px 4px 0px;
+	width: 28px;
+	height: 28px;
+}
+.lessonList_evaluatePersonInf{
+	float: left;
+	margin-left: 7px;
+}
+.lessonList_evaluatePersonMail{
+	display: inline-block;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	color:#39a030;
+}
+.lessonList_Date{
+	margin-left: 5px;
+	vertical-align: 2px;
+	color: #999;
+	font-size: 12px;
+}
+.lessonList_realEvaluate{
+	line-height: 21px;
+	word-spacing: break-word;
+	color: #666;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.lessonList_knowMore{
+	height:20px;
+	padding: 15px 0 15px 15px;
+	font-size: 12px;
+	line-height: 19px;
+	max-width: 660px;
+	border-top: 1px solid #eaeaea;
+	background-color: #F2F2F2;
+}
+.lessonList_knowMoreHref{
+	text-align: center;
+	max-width:660px; 
+	color: #666;
+	padding: 15px 0 15px 0;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+
+.lessonList_closeBtn{
+	float: right;
+	cursor: pointer;
+}
+.lessonList_allEvaluate{
+	height: 316px;
+	overflow-y: scroll;
+}
+.modal p:hover {
+  cursor: pointer;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.modal {
+  display: none;
+  background: white;
+  padding: 0 20px 20px;
+  overflow: auto;
+  z-index: 1001;
+  position: absolute;
+  width: 800px;
+  min-height: 444px;
+}
+.lessonList_allCommentsUp{
+	height: 30px;
+	width: 100%;
+}
+.lessonList_allComments{
+	width: 750px;
+	height: 30px;
+	position: absolute;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.lessonList_giveCommentsBtn{
+	width:56px;
+	height:34px;
+	background-color:white;
+	margin-left:100px;
+}
+.lessonList_giveCommentsBtn:hover{
+	background-color:#E5E5E5;
+}
+.lessonList_giveCommentsDiv{
+	height:112px;
+	background-color:white;
+	margin-top:10px;
+	display:block;
+	padding:0 20px 10px 20px;
+}
+.lessonList_giveCommentsTextDiv{
+	height:56px;
+	background-color:#FAFAFA;
+	border:1px solid #DFDFDF;
+	box-shadow:inset 1px 1px 2px #DFDFDF;
+	padding:5px 5px 5px 5px;
+}
+.lessonList_giveCommentsText{
+	font-size:14px;
+	line-height:23px;
+	background-color:transparent;
+	resize:none;
+	border:none;
+	color:#444;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.lessonList_relGiveCommentsBtn{
+	height:34px;
+	background-color:white;
+	margin-top:10px;
+}
+.lessonList_giveBtn{
+	width:56px;
+	height:34px;
+	background-color:#1CA63E;
+	float:right;
+}
+.lessonList_giveBtn:hover{
+	background-color:#21B846;
+}
+.lessonList_cancelBtn{
+	width:56px;
+	height:34px;
+	background-color:white;
+	float:right;
+	margin-right:10px;
+}
+.lessonList_cancelBtn:hover{
+	background-color:#E5E5E5;
+}

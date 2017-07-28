@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+*{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+body{
+	min-width: 1160px;
+ 	font: 400 14px/1 "Microsoft YaHei","WenQuanYi Micro Hei","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3",sans-serif;
+    color: #333;
+    background: #f8f8f8;
+    -webkit-font-smoothing: antialiased;
+}
+#hd{
+	position:fixed;
+	top:0px;
+	z-index:1;
+	width:100%;
+	height:56px;
+	background-color:#272727;
+}
+#hd>.warp{
+	margin:0 auto 0 auto;
+	width:1160px;
+}
+#hd>.warp>h1{
+	float:left;
+	margin:14px 51px 14px 0;
+	height:28px;
+	width:122px;
+}
+#hd>.warp>ul{
+	list-style:none;
+}
+#hd>.warp>ul>li{
+	color:white;
+	float:left;
+}
+#hd>.warp>ul>li>.link{
+	text-decoration:none;
+	color:#E8E8E8;
+}
+.hidden{
+	display:none;
+}
+.banner { 
+	position: relative; 
+	overflow: auto; 
+}
+#bod{
+	position:relative;
+	margin:0 auto 0 auto;
+	width:1160px;
+}
+a img, :link img, :visited img {
+	border: 0;
+}
+
+.banner {
+	position: relative;
+	overflow: auto;
+}
+.banner li {
+	list-style: none;
+}
+.banner ul li {
+	float: left;
+}
+.banner .arrows {
+	display: none;
+}
+.banner:hover .arrows, .banner.hover .arrows {
+	display: block;
+}
+ 
+.banner .arrows {
+	position: absolute;
+	z-index: 20;
+}
+.banner .arrows .prev, .banner .arrows .next {
+	position: absolute;
+	width: 76px;
+	height: 77px;
+	font: 0/0 a;
+	color: transparent;
+	cursor: pointer;
+}
+.banner .arrows .prev {
+	left: 30px;
+	background: url(../images/arrowl.png) no-repeat;
+}
+.banner .arrows .next {
+	left:1050px;
+	background: url(../images/arrowr.png) no-repeat;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	zoom: 1;
+}
+.section4 {
+	height: 660px;
+}
+.section4 .banner ul li {
+	height: 660px;
+}
+.section4 .banner .arrows {
+	top: 270px;
+}
+.section4 .mydots {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 550px;
+	text-align: center;
+	font-size: 15px;
+	background: #fff;
+}
+.section4 .dot {
+	float: left;
+	line-height: 56px;
+	width: 25%;
+	border-bottom: 2px solid;
+	border-top: 2px solid #e8e8e8;
+	cursor: pointer;
+}
+.section4 .dot1 {
+	color: #e33189;
+	border-bottom-color: #f3bfd9;
+}
+.section4 .dot1.active {
+	background: #f3bfd9;
+}
+.section4 .dot2 {
+	color: #24adac;
+	border-bottom-color: #a4f7f6;
+}
+.section4 .dot2.active {
+	background: #a4f7f6;
+}
+.section4 .dot3 {
+	color: #dc6f23;
+	border-bottom-color: #edcfbb;
+}
+.section4 .dot3.active {
+	background: #edcfbb;
+}
+.section4 .dot4 {
+	color: #da4e4e;
+	border-bottom-color: #f0b5b5;
+}
+.section4 .dot4.active {
+	background: #f0b5b5;
+}
+.section4 .dot5 {
+	color: #8344c3;
+	border-bottom-color: #c0c8f4;
+}
+.section4 .dot5.active {
+	background: #c0c8f4;
+}
+
+.auth-menu{
+	margin-top:15px;
+	float: right;
+    position: relative;
+    padding-right: 24px;
+    font-size: 12px;
+}
+.loginIn{
+	margin:0 5px 20px;
+	color:white;
+}
+.registerIn{
+	margin:0 5px 20px;
+	color:white;
+}
+.goToTop{
+	position:fixed;
+	_position:absolute;
+	bottom:0px;
+	right:0px;
+	width:150px;
+	height:195px;
+	display:none;
+	z-index:10;
+	cursor:pointer;
+}
+.auth-menu p{
+	float:right;
+	margin-top:7px;
+	font-size:14px;
+	color:white;
+}
+.auth-menu img{
+	float:right;
+	width:40px;
+	heigth:40px;
+}
+#search_input{
+	float:left;
+	width:100px;
+	height:25px;
+	margin-top:15px;
+	margin-left:10px;
+	background-color:white;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aaa;
+}
+.search_img{
+	float:left;
+	width:25.5px;
+	height:25.45px;
+	background-color:#49AF4F;
+	margin-top:15px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.search_img:hover{
+	background-color:#54C15A;
+}
+.main_userAll{
+	right:97px;
+	z-index:999;
+	top:53px; 
+	position: fixed;
+	width: 70px;
+	height:70px;
+	background-color: white;
+	opacity:0.8
+}
+.main_userInf{
+	padding: 2px 10px 2px 10px;
+	font-size: 12px;width: 50px;
+	color: #666;
+	line-height: 31.5px;
+	text-align: center;
+}
+.main_userInf:hover,.main_outLogin:hover{
+	background-color: #F3F4F6;
+}
+.main_outLogin{
+	border-top-color:#dddddd;
+	border-top-style:sollid;
+	border-top-width:1px; 
+	padding: 2px 10px 2px 10px;
+	font-size: 12px;
+	width: 50px;
+	color: #666;
+	line-height: 31.5px;
+	text-align: center;
+}

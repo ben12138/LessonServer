@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+.UserInf_div{
+	width: 1160px;
+	background-color: white;
+}
+.UserInf_table{
+	border-scollapse:collapse;
+	border-spacing:0;
+}
+.UserInf_tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.UserInf_normalTr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+	height: 67px;
+}
+.UserInf_normalTitle{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	vertical-align: top;
+	color: #666;
+	padding: 20px 20px 0 0;
+	font-family: '微软雅黑‘;
+}
+.UserInf_normalInputDiv{
+	width: 175px;
+	height: 25px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+	background-color: #FAFAFA;
+	border: 1px solid #DFDFDF;
+	box-shadow:inset 1px 1px 2px #DFDFDF;
+}
+.UserInf_normalInput{
+	width: 175px;
+	height: 25px;
+	line-height: 23px;
+	float: left;
+	background-color: #FAFAFA;
+	color: #333;
+	font-size: 12px;
+	outline: none;
+	border: 0 0 0 0;
+	padding:0 0 0 0;
+}
+.UserInf_submmit{
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #3AD7FC;
+}
+.UserInf_submmit:hover{
+	background-color: #3CAFF1;
+}

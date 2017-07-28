@@ -1,0 +1,73 @@
+/**
+ * 下载图片及字体切换
+ */
+$(function(){
+	if($("#pc_img").attr("src")=="images/windowsout.png"){
+		$(".change4pc_style").hover(
+			function(){
+				$("#pc_img").attr("src","images/windowsover.png");
+				$("#pc_font").css({color:"#FF7400"});
+			},
+			function(){
+				$("#pc_img").attr("src","images/windowsout.png");
+				$("#pc_font").css({color:"#BFBFBF"});
+			}
+		);
+	}
+});
+
+$(".change4android_style").hover(
+	function(){
+		$("#android_img").attr("src","images/androidover.png");
+		$("#android_font").css({color:"#FF7400"});
+	}	,
+	function(){
+		$("#android_img").attr("src","images/androidout.png");
+		$("#android_font").css({color:"#BFBFBF"});
+	}
+);
+$(".change4pc_style").click(
+		function(){
+			$(".change4pc_style").unbind("mouseenter").unbind("mouseleave");
+			$(".change4android_style").on(
+				{
+					mouseenter:function(){
+						$("#android_img").attr("src","images/androidover.png");
+						$("#android_font").css({color:"#FF7400"});
+					},
+					mouseleave:function(){
+						$("#android_img").attr("src","images/androidout.png");
+						$("#android_font").css({color:"#BFBFBF"});
+					}
+				}
+			);
+			$("#pc_img").attr("src","images/windowsover.png");
+			$("#android_img").attr("src","images/androidout.png");
+			$("#android_font").css({color:"#BFBFBF"});
+			$(".android_hidden").css({display:"none"});
+			$(".pc_hidden").css({display:"block"});
+		}	
+	);
+
+$(".change4android_style").click(
+	function(){
+		$(".change4android_style").unbind("mouseenter").unbind("mouseleave");
+		$(".change4pc_style").on(
+				{
+					mouseenter:function(){
+						$("#pc_img").attr("src","images/windowsover.png");
+						$("#pc_font").css({color:"#FF7400"});
+					},
+					mouseleave:function(){
+						$("#pc_img").attr("src","images/windowsout.png");
+						$("#pc_font").css({color:"#BFBFBF"});
+					}
+				}
+			);
+		$("#android_img").attr("src","images/androidover.png");
+		$("#pc_img").attr("src","images/windowsout.png");
+		$("#pc_font").css({color:"#BFBFBF"});
+		$(".pc_hidden").css({display:"none"});
+		$(".android_hidden").css({display:"block"});
+	}	
+);

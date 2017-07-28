@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+.selectCourse_lesson{
+	margin-top: 30px;
+}
+.selectCourse_lesson h2{
+	font-weight: 900;
+}
+.selectCourse_title{
+	margin-bottom: 10px
+}
+.selectCourse_firstdiv{
+	margin-bottom:20px;
+}
+.selectCourse_seconddiv{
+	width:1160px;
+	height:200px;
+}
+.selectCourse_thriddiv{
+	height:185px;
+	width:235px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	float:left;
+}
+.selectCourse_forthdiv{
+	height:132px;
+	width:235px;
+	overflow:hidden;
+}
+.selectCourse_forthdiv img {
+	max-width: none;
+	height: 133px;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.selectCourse_thriddiv:hover img {
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+.selectCourse_lessonName h3{
+	font-weight:600;
+	margin:5px 0 5px 0;
+}
+.selectCourse_thriddiv:hover h3{
+	color:green;
+}
+.selectCourse_teacherName {
+	font-size:13px;
+	font-weight:300;
+}
+.selectCourse_noLesson{
+	width:1160px;
+	height:444px;
+}
+.selectCourse_noLesson img{
+	display:block;
+	margin:0 auto 0 auto;
+}
+.selectCourse_noResult{
+	font-size: 24px;
+	color: #666;
+	margin-top: 24px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+.selectCourse_changeWord{
+	font-size: 18px;
+	color: #999;
+	text-align:center;
+}
